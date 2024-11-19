@@ -2,6 +2,7 @@ function setup() {
 createCanvas(800,600);
 }
 
+function draw() {
 function submarine(x,y) {
     // main shape
     fill(255,255,0);
@@ -291,5 +292,5 @@ function mouseClicked() {
     } else if ( state === "result")
         state = "start";
 }
-
+}
 
