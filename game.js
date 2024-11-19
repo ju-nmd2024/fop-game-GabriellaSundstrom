@@ -188,7 +188,6 @@ function gameScreen() {
         else {
             state = "result";
         }
-    console.log (speed);
         }
 
 function resultScreen() {
