@@ -2,10 +2,6 @@ function setup() {
 createCanvas(800,600);
 }
 
-function draw() {
-    background(20,0,50);
-}
-
 function submarine(x,y) {
     // main shape
     fill(255,255,0);
